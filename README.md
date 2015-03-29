@@ -13,6 +13,22 @@ read images that originate from the same domain as the script reading them, so y
 
 In order to make this work with Volt, the files can be pulled from the assets path.
 
-Embedded below is an example:
+[Here](http://evanw.github.io/glfx.js/demo/) is an example:
 
-<iframe source='http://evanw.github.io/glfx.js/demo/' width='600' height='480'></iframe>
+## Installatoin
+Include the line
+
+
+```RUBY
+gem 'volt-glfx'
+``` 
+
+In your Gemfile as well as
+
+```RUBY
+component 'glfx'
+````
+
+In `components.js`. 
+
+This is a WIP
